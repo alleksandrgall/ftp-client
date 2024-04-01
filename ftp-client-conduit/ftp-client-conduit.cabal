@@ -19,8 +19,8 @@ library
                      , ftp-client == 0.5.*
                      , conduit >= 1.1
                      , bytestring
-                     , resourcet == 1.2.*
-                     , connection >= 0.2 && < 0.4
+                     , resourcet == 1.3.*
+                     , crypton-connection ==0.3.2
                      , exceptions
   default-language:    Haskell2010
   default-extensions:  RankNTypes, OverloadedStrings
